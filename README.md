@@ -23,10 +23,9 @@ This API allows users to manage events, attendees, and bookings with proper vali
 | Events     | PUT         | `/api/events/{id}`    | Yes           | Update an event                |
 | Events     | DELETE      | `/api/events/{id}`    | Yes           | Delete an event                |
 | Attendees  | POST        | `/api/attendees`      | No            | Register a new attendee        |
-| Attendees  | GET         | `/api/attendees`      | Yes           | List all attendees             |
-| Attendees  | GET         | `/api/attendees/{id}` | Yes           | Get attendee details           |
-| Attendees  | PUT         | `/api/attendees/{id}` | Yes           | Update attendee information    |
-| Attendees  | DELETE      | `/api/attendees/{id}` | Yes           | Delete an attendee             |
+| Attendees  | GET         | `/api/attendees`      | Yes           | Get attendee details           |
+| Attendees  | PUT         | `/api/attendees`      | Yes           | Update attendee information    |
+| Attendees  | DELETE      | `/api/attendees`      | Yes           | Delete an attendee             |
 | Bookings   | POST        | `/api/bookings`       | Yes           | Book an attendee for an event  |
 
 ---
